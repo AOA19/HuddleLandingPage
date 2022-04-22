@@ -1,2 +1,2 @@
 # HuddleLandingPage
-Frontend Mentor Huddle land
+Frontend Mentor Huddle landing Page
