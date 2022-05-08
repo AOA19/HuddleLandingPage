@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](/HuddleLandingPage/Screenshots/Huddle-Landing-Page-Desktop.png)
-![](/HuddleLandingPage/Screenshots/Huddle-Landing-Page-Mobile.png)
+![](Screenshots/Huddle-Landing-Page-Desktop.png)
+![](Screenshots/Huddle-Landing-Page-Mobile.png)
 
 ### Links
 
