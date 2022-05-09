@@ -217,13 +217,14 @@ footer {
 }
 
 /* Form Styling */
-h3 {
+form h2 {
   color: var(--clr-white);
   padding-bottom: 15px;
+  text-align: left;
   text-transform: uppercase;
 }
 
-.subscribe-txt,
+label,
 .footer-txt {
   color: var(--clr-white);
   font-size: 14px;
@@ -303,7 +304,7 @@ input[type="submit"]:hover {
 }
 
 /* Attribution Styling */
-.attr-container {
+#attr-container {
   background-color: var(--clr-very-dark-cyan);
   padding: 20px 0;
 }
@@ -360,7 +361,6 @@ input[type="submit"]:hover {
     padding-right: 60px;
   }
 
-  .subscribe-txt,
   .footer-txt {
     padding-right: 90px;
   }
@@ -510,16 +510,12 @@ input[type="submit"]:hover {
     padding-right: 15px;
   }
 
-  h3 {
+  form h2 {
     font-size: 24px;
   }
 
-  .subscribe-txt {
-    padding-right: 90px;
-  }
-
   input[type="email"] {
-    width: 60%;
+    width: 280px;
   }
 
   input[type="submit"] {
