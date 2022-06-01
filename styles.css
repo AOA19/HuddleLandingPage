@@ -232,6 +232,12 @@ label,
   line-height: 1.8;
 }
 
+.email-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 input[type="email"] {
   border-radius: 5px;
   border: 1px solid var(--clr-white);
@@ -365,8 +371,13 @@ input[type="submit"]:hover {
     padding-right: 90px;
   }
 
+  .email-submit {
+    flex-direction: row;
+    column-gap: 50px;
+  }
+
   input[type="email"] {
-    width: 70%;
+    width: 60%;
   }
 
   input[type="submit"] {
@@ -502,7 +513,7 @@ input[type="submit"]:hover {
   footer {
     flex-direction: row-reverse;
     padding: 150px 90px 0 90px;
-    column-gap: 38%;
+    column-gap: 25%;
   }
 
   .footer-content {
@@ -510,12 +521,21 @@ input[type="submit"]:hover {
     padding-right: 15px;
   }
 
+  .footer-txt {
+    width: 70%;
+  }
+
   form h2 {
     font-size: 24px;
   }
 
+  .email-submit {
+    flex-direction: row;
+    column-gap: 30px;
+  }
+
   input[type="email"] {
-    width: 280px;
+    width: 80%;
   }
 
   input[type="submit"] {
